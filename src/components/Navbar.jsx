@@ -26,8 +26,10 @@ const Navbar = () => {
     <nav>
       <div>
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="logo-img" />
-          <p>Velvet Pour</p>
+          <p className="flex flex-col text-2xl sm:flex-col  md:flex-col lg:flex-row justify-between lg:gap-6 items-center">
+            <span>T A N J I R O</span>
+            <span class="katana-fire"> {`@:]||||═══════>>>`} </span>{" "}
+          </p>
         </a>
         <ul>
           {navLinks.map((item, index) => {
