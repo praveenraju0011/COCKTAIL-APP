@@ -12,7 +12,7 @@ const Navbar = () => {
       },
     });
     gsapControl.fromTo(
-      "nav",  
+      "nav",
       { background: "transparent" },
       {
         backgroundColor: "rgba(0, 0, 0, 0.3)",
